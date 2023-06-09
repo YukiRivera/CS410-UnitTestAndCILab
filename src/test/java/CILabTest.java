@@ -33,5 +33,10 @@ public class CILabTest {
         myString.setString("Google");
         assertTrue(myString.detectCapitalUse());
     }
+    @Test
+    public void detectCapitalUseTest4() {
+        myString.setString("A");
+        assertTrue(myString.detectCapitalUse());
+    }
 
 }
